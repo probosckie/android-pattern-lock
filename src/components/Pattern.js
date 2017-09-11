@@ -64,7 +64,7 @@ class MyDot extends Component {
 			y={y}
 			radius={8}
 			opacity={0.5}
-			onMouseOver = {(e) => {click.call(this, e, x,y,this.snap,key1); this.snap=true;}}
+			onClick = {(e) => {click.call(this, e, x,y,this.snap,key1); this.snap=true;}}
 		/>);
 	}
 }
